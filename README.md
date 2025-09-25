@@ -8,7 +8,7 @@ This project applies unsupervised machine learning techniques to segment mall cu
 
 ---
 
-## 🛠 Steps Performed  
+## Steps Performed  
 1. **Data Cleaning**  
    - Removed unnecessary columns (Invoice No, Customer ID).  
    - Converted invoice dates into month & weekday features.  
@@ -22,7 +22,7 @@ This project applies unsupervised machine learning techniques to segment mall cu
    - Applied clustering with different values of *k*.  
    - **Elbow Method** showed a bend at *k = 4*.  
    - **Silhouette Score** was highest at *k = 3 (0.125)* but still meaningful at *k = 4 (0.112)*.  
-   - ✅ Final choice: **k = 4 clusters** (balance between Elbow and Silhouette).  
+   - Final choice: **k = 4 clusters** (balance between Elbow and Silhouette).  
 
  
 
@@ -47,14 +47,14 @@ This project applies unsupervised machine learning techniques to segment mall cu
 
 ---
 
-## 📊 Results  
+## Results  
 - Best segmentation found with **4 clusters**.  
 - Each cluster shows different customer profiles (low spenders vs. high spenders, male vs. female dominance, etc.).  
 - Useful insights for mall managers & retailers to design personalized marketing strategies.  
 
 ---
 
-## 🚀 Deliverables  
+## Deliverables  
 - Jupyter Notebook (`customer_clustering.ipynb`)  
 - README.md (project details & results)  
 - Plots: `elbow.png`, `pca.png`  
